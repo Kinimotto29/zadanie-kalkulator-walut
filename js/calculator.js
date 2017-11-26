@@ -12,7 +12,7 @@ function obliczZysk(wplata, iloscLat, oprocentowanie, podatek, okresKapitalizacj
     
     var kapital = wplata * Math.pow(1 + (oprocentowanieOpodatkowane / okresKapitalizacji), iloscLat * okresKapitalizacji);
     
-//toFixed - zaokrąglanie liczb po przecinku
+//  toFixed - zaokrąglanie liczb po przecinku
     return kapital.toFixed(2);
     
 }
