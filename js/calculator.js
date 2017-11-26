@@ -36,3 +36,6 @@ function oblicz() {
     document.getElementById('wynik').innerHTML = 'Twoja stopa zwrotu to ' + wynik + 'pln';
 }
 
+
+document.getElementById('oblicz').onclick = oblicz;
+
