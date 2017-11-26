@@ -31,6 +31,8 @@ function oblicz() {
     
     var podatek = document.getElementById('podatek').checked;
 
+    
+//  przypisanie wyniku obliczania podatku do zmiennej wynik
     var wynik = obliczZysk(wplata, iloscLat, oprocentowanie, podatek, okresKapitalizacji);
     
     document.getElementById('wynik').innerHTML = 'Twoja stopa zwrotu to ' + wynik + 'pln';
